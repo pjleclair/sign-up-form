@@ -1,8 +1,37 @@
-.test-container {
+.left-half {
+    height: 39rem;
+    width: 33%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('green-plant.jpeg');
+    background-position: center;
 }
 
-.test {
-    font-size: xx-large;
+.header-div {
+    font-size: x-large;
+    height: 3rem;
+    width: 100%;
+    background-color: rgba(63, 63, 63, 0.5);
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
 }
+
+.odin-logo {
+    height: 100%;
+    object-fit: contain;
+}
+
+.credit-footer {
+    color: aliceblue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* external font:  */
