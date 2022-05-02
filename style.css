@@ -11,7 +11,7 @@
 
 .header-div {
     font-size: xx-large;
-    font-family: Odin;
+    font-family: Odin, sans-serif;
     height: 3rem;
     width: 100%;
     background-color: rgba(63, 63, 63, 0.5);
