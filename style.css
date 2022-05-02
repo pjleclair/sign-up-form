@@ -10,7 +10,8 @@
 }
 
 .header-div {
-    font-size: x-large;
+    font-size: xx-large;
+    font-family: Odin;
     height: 3rem;
     width: 100%;
     background-color: rgba(63, 63, 63, 0.5);
@@ -35,3 +36,7 @@ body {
     padding: 0;
 }
 /* external font:  */
+@font-face {
+    font-family: Odin;
+    src: url(Norse-Bold.otf);
+}
